@@ -1,3 +1,6 @@
 <?php
-	echo "Hello World"
+	echo "Hello World";
+
+	include 'databaseconnection.php';
+	echo "Funcionou!";
 ?>
