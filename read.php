@@ -11,7 +11,7 @@ $tasks = $stmt->fetchAll();
 <ul>
     <?php foreach ($tasks as $task): ?>
         <li>
-            <?php echo htmlspecialchars($task['title']); ?>&nbsp;
+            <p class="title" id="title-<?php echo $task['id']; ?>"><?php echo htmlspecialchars($task['title']); ?></p>&nbsp;
             <?php echo htmlspecialchars($task['description']); ?> 
             <?php if ($task['done'] == 1) { echo '&check;'; } ?>
             <a href="update.php?id=<?php echo $task['id']; ?>">Editar</a>
@@ -19,3 +19,4 @@ $tasks = $stmt->fetchAll();
         </li>
     <?php endforeach; ?>
 </ul>
+<script src="search.js" defer></script>
