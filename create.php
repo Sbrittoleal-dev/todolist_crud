@@ -9,6 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         'title' => $title,
         'description' => $description
     ]);
+    header('Location: read.php');
 }
 ?>
 
