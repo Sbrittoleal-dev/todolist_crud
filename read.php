@@ -7,6 +7,9 @@ $tasks = $stmt->fetchAll();
 ?>
 
 <h1>Lista de Tarefas</h1>
+
+<input type="text" id="searchbar" name="searchbar" placeholder="Pesquise aqui">
+
 <a href="create.php">Adicionar Tarefa</a>
 <ul>
     <?php foreach ($tasks as $task): ?>
