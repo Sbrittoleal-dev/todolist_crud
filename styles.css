@@ -1,0 +1,44 @@
+.headliner1{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 20px;
+    text-align: center;
+}
+
+.adicionar{
+    font-size: 16px;
+    color:#000;
+    text-decoration: none;
+    margin: 20px 15px;
+    background-color: lightgrey;
+    box-shadow: #000 2px 2px;
+    border-radius: 5px;
+    padding: 3px;
+    display: block;
+    width: fit-content;
+    
+}
+
+.searchbar{
+    border-radius: 5px;
+    padding: 5px;
+    display: block;
+    margin: 20px 15px;
+}
+
+.title{
+    font-weight: bold;
+}
+
+.linha{
+    margin: 10px;
+    display: flex;
+    text-decoration: none;
+    border-bottom: dashed #000;
+    width: fit-content;
+}
+
+.editardeletar{
+    margin: 5px;
+
+}
